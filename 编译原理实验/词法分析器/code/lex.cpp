@@ -84,7 +84,7 @@ private:
 };
 
 int main() {
-    std::string code = "if (x == 10) { return x + 1; } else { return 0; } &";
+    std::string code = "if (x == 10) { return x + 2; } else { return 0; } &";
     Lexer lexer(code);
     Token token;
 
